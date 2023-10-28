@@ -1,3 +1,4 @@
-[submodule "droid-hal-configs"]
-	path = droid-hal-configs
+[submodule "droid-configs-device"]
+	path = droid-configs-device
 	url = https://github.com/piggz/droid-hal-configs
+	branch = native
