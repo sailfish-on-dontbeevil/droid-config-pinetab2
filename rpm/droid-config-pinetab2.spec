@@ -2,11 +2,11 @@
 # Feel free to cleanup this file by removing comments, once you have memorised them ;)
 #Requires(pre):sailfish-setup
 
-%define device pinephonepro
+%define device pinetab2
 %define vendor pine
 
 %define vendor_pretty Pine64
-%define device_pretty PinePhone Pro
+%define device_pretty PineTab 2
 
 # Community HW adaptations need this
 %define community_adaptation 1
@@ -25,8 +25,8 @@ Provides: usb-moded-configs
 Obsoletes: usb-moded-defaults
 
 %include droid-configs-device/droid-configs.inc
-%include patterns/patterns-sailfish-device-adaptation-pinephonepro.inc
-%include patterns/patterns-sailfish-device-configuration-pinephonepro.inc
+%include patterns/patterns-sailfish-device-adaptation-pinetab2.inc
+%include patterns/patterns-sailfish-device-configuration-pinetab2.inc
 
 # IMPORTANT if you want to comment out any macros in your .spec, delete the %
 # sign, otherwise they will remain defined! E.g.:

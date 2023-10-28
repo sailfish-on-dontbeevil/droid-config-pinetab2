@@ -1,4 +1,4 @@
-%package -n patterns-sailfish-device-adaptation-pinephonepro
+%package -n patterns-sailfish-device-adaptation-pinetab2
 Summary: Sailfish HW Adaptation PinephonePro
 
 Requires: qt5-plugin-generic-evdev
@@ -78,17 +78,17 @@ Requires: alsa-ucm-conf
 Requires: v4l-utils
 
 # Firmware
-Requires: firmware-pine64-pinephonepro
+#Requires: firmware-pine64-pinetab2
 Requires: wireless-regdb
 
-Requires: kernel-adaptation-pinephonepro
-Requires: droid-config-pinephonepro-sailfish
-Requires: droid-config-pinephonepro-pulseaudio-settings
-Requires: droid-config-pinephonepro-policy-settings
-Requires: droid-config-pinephonepro-preinit-plugin
-Requires: droid-config-pinephonepro-bluez5
-Requires: droid-hal-version-pinephonepro
-#Requires: droid-config-pinephonepro-flashing
+Requires: kernel-adaptation-pinetab2
+Requires: droid-config-pinetab2-sailfish
+Requires: droid-config-pinetab2-pulseaudio-settings
+Requires: droid-config-pinetab2-policy-settings
+Requires: droid-config-pinetab2-preinit-plugin
+Requires: droid-config-pinetab2-bluez5
+Requires: droid-hal-version-pinetab2
+#Requires: droid-config-pinetab2-flashing
 
 #Include atinout to talk to the modem
 Requires: atinout
@@ -97,8 +97,8 @@ Requires: eg25-manager
 # Enable home encryption
 Requires: sailfish-device-encryption-community
 
-%description -n patterns-sailfish-device-adaptation-pinephonepro
+%description -n patterns-sailfish-device-adaptation-pinetab2
 Pattern with packages for pinephone pro HW Adaptation
 
-%files -n patterns-sailfish-device-adaptation-pinephonepro
+%files -n patterns-sailfish-device-adaptation-pinetab2
  
