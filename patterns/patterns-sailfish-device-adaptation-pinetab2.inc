@@ -62,11 +62,6 @@ Requires: rfkill
 # enable device lock and allow to select untrusted software
 Requires: jolla-devicelock-plugin-encsfa
 
-# For GPS
-Requires: gpsd
-Requires: geoclue
-Requires: geoclue-provider-gpsd3
-
 # For mounting SD card automatically
 Requires: sd-utils
 
@@ -89,10 +84,6 @@ Requires: droid-config-pinetab2-preinit-plugin
 Requires: droid-config-pinetab2-bluez5
 Requires: droid-hal-version-pinetab2
 #Requires: droid-config-pinetab2-flashing
-
-#Include atinout to talk to the modem
-Requires: atinout
-Requires: eg25-manager
 
 # Enable home encryption
 Requires: sailfish-device-encryption-community
