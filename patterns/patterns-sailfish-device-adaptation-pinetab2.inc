@@ -73,7 +73,7 @@ Requires: alsa-ucm-conf
 Requires: v4l-utils
 
 # Firmware
-#Requires: firmware-pine64-pinetab2
+Requires: firmware-pine64-pinetab2
 Requires: wireless-regdb
 
 Requires: kernel-adaptation-pinetab2
