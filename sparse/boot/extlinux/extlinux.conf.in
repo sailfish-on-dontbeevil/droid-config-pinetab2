@@ -2,4 +2,4 @@ default SailfishOS
 label SailfishOS
    kernel /Image
    FDT /rk3566-pinetab2-v2.0.dtb
-append root=PARTUUID=[BOOTUUID] rootwait coonsole=tty1 console=ttyS2,1500000n8 rw rootfstype=ext4 audit=0
+append root=PARTUUID=ROOTUUID rootwait coonsole=tty1 console=ttyS2,1500000n8 rw rootfstype=ext4 audit=0
