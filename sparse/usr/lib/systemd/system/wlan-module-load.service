@@ -1,0 +1,19 @@
+[Unit]
+Description=Load wifi module
+DefaultDependencies=false
+Conflicts=shutdown.target
+After=dbus.service
+
+[Service]
+Type=simple
+RemainAfterExit=yes
+ExecStartPre=/usr/bin/droid/persist-wlan-macaddr.sh
+ExecStart=/sbin/modprobe bes2600
+ExecStartPost=/bin/sleep 2
+ExecStartPost=/usr/sbin/rfkill unblock wifi
+ExecStop=/sbin/modprobe -r bes2600
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=basic.target
