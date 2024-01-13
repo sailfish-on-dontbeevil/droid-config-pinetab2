@@ -9,4 +9,4 @@ ExecStart=/usr/bin/droid/droid-get-bt-address.sh
 RemainAfterExit=yes
 
 [Install]
-WantedBy=bluetooth.target
+WantedBy=multi-user.target

@@ -9,4 +9,4 @@ ExecStart=/usr/bin/droid/start-bluetooth-adapter.sh
 RemainAfterExit=yes
 
 [Install]
-WantedBy=bluetooth.target
+WantedBy=bluetooth.service
