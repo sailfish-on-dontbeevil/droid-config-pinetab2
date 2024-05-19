@@ -1,7 +1,7 @@
 %package -n patterns-sailfish-device-adaptation-pinetab2
 Summary: Sailfish HW Adaptation PinephonePro
 
-Requires: qt5-plugin-generic-evdev
+Obsoletes: qt5-plugin-generic-evdev
 
 # Graphics (mesa)
 Requires: mesa-dri-drivers
