@@ -1,6 +1,7 @@
 %package -n patterns-sailfish-device-adaptation-pinetab2
 Summary: Sailfish HW Adaptation PinephonePro
 
+#These drivers are built into the eglfs platform driver
 Obsoletes: qt5-plugin-generic-evdev
 
 # Graphics (mesa)
@@ -8,7 +9,6 @@ Requires: mesa-dri-drivers
 Requires: mesa-libEGL
 Requires: mesa-libGLESv2
 Requires: mesa-libgbm
-Requires: mesa-libglapi
 Requires: wayland-egl
 Requires: qt5-plugin-platform-eglfs
 
