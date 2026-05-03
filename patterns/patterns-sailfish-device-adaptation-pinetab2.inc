@@ -21,7 +21,6 @@ Requires: bluez5-tools
 #Requires: bluetooth-rfkill-event-hciattach
 
 # Vibra
-Requires: qt5-feedback-haptics-ffmemless
 Requires: libngf-qt5-qtfeedback
 
 # Sensors
@@ -61,9 +60,6 @@ Requires: rfkill
 
 # enable device lock and allow to select untrusted software
 Requires: jolla-devicelock-plugin-encsfa
-
-# For mounting SD card automatically
-Requires: sd-utils
 
 # sound
 Requires: alsa-utils
